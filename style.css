@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: radial-gradient(circle at 52.37% 22.92%, #fff3fa 0, #fff3fa 50%, #fff3fa 100%);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* Titulo y subtitulo centrado */
+.style-titulo {
+  margin-bottom: 20px;
+}
+
+.titulo1 {
+  color: #fd71a0;
+  font-style: italic;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo1 {
+  color: #cc7dee;
+  font-size: 18px;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+
+/* Foto de la emprendedora mas breve texto */
+.section2 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.section2 img {
+  width: 35%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion {
+  width: 400px;
+  color: black;
+  font-style: oblique;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f8e7ff;
+  height: 180px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: #d3c1ff;
+}
+
+footer .footer-tittle {
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+}
+
+footer .InstaLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+footer .WaLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  margin-left: 140px;
+}
+
+footer .imagenlogo {
+  float: right;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* IMAGENES BORDES-TORTAS Y RECETAS.HTML */
+.image2 {
+  border-radius: 40px;
+  transition: all 2s ease-in;
+}
+
+.image2:hover {
+  transform: scale(2);
+}
+
+.image3 {
+  border-radius: 40px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+/*  titulo principal y titulos secundarios */
+.tittle-productos {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin: 5px auto;
+  color: #ffba00;
+}
+
+.tittle-productos2 {
+  width: 100%;
+  margin: 25px 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-style: italic;
+  color: #ffba00;
+}
+
+.item-pedido {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* MEDIA QUERY */
+
+/* MOBILE STYLE */
+
+@media only screen and (max-width: 400px) {
+  .titulo1 {
+    margin: 5px 50%;
+  }
+
+  .subtitulo1 {
+    margin: 5px auto;
+    font-size: small;
+  }
+
+  .section2 img {
+    display: none;
+  }
+
+  .footer .footer-tittle {
+    margin-left: 20px;
+  }
+
+  .footer .imagenlogo {
+    display: none;
+  }
+
+  .footer .footer-tittle {
+    margin-left: 20px;
+  }
+
+  .footer .InstaLogo {
+    margin: 35px
+  }
+}
+
+.footer .WaLogo {
+  margin-left: 100px;
+}
+
+
+/*  RECETAS */
+
+
+/* TABLET */
+
+@media only screen and (min-width:401) and (max-width:960px) {
+
+  .titulo1 {
+    margin: 5px 50%;
+  }
+  .section2 img {
+    display: none;
+  }
+.footer .imagenlogo{
+  display: none;
+}
+
+.image3{margin-left: 60px;}
+}
+
