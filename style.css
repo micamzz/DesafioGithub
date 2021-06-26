@@ -51,11 +51,15 @@ body {
   width: 400px;
   color: black;
   font-style: oblique;
-  margin-left: 20px;
+  margin-left: 10px;
   display: flex;
   align-items: center;
 }
 
+.descripcion2{
+  margin-left: 270px;
+  margin-right: 240px;
+}
 /* FOOTER */
 footer {
   background-color: #f8e7ff;
