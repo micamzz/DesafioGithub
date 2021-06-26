@@ -44,13 +44,14 @@ body {
   border-radius: 40px;
   display: flex;
   justify-content: center;
+  margin-left: 55px;
 }
 
 .descripcion {
   width: 400px;
   color: black;
   font-style: oblique;
-  margin-left: 30px;
+  margin-left: 20px;
   display: flex;
   align-items: center;
 }
